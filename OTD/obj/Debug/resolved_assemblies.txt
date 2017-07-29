@@ -1,0 +1,15 @@
+C:\DEV\TEST\OTD\OTD\obj\Debug\android\assets\OTD.dll
+C:\DEV\TEST\OTD\OTD\obj\Debug\android\assets\Java.Interop.dll
+C:\DEV\TEST\OTD\OTD\obj\Debug\android\assets\Microsoft.CSharp.dll
+C:\DEV\TEST\OTD\OTD\obj\Debug\android\assets\Mono.Android.dll
+C:\DEV\TEST\OTD\OTD\obj\Debug\android\assets\mscorlib.dll
+C:\DEV\TEST\OTD\OTD\obj\Debug\android\assets\System.Core.dll
+C:\DEV\TEST\OTD\OTD\obj\Debug\android\assets\System.dll
+C:\DEV\TEST\OTD\OTD\obj\Debug\android\assets\System.Xml.dll
+C:\DEV\TEST\OTD\OTD\obj\Debug\android\assets\System.Xml.Linq.dll
+C:\DEV\TEST\OTD\OTD\obj\Debug\android\assets\System.ComponentModel.Composition.dll
+C:\DEV\TEST\OTD\OTD\obj\Debug\android\assets\Mono.CSharp.dll
+C:\DEV\TEST\OTD\OTD\obj\Debug\android\assets\System.Net.Http.dll
+C:\DEV\TEST\OTD\OTD\obj\Debug\android\assets\System.Runtime.Serialization.dll
+C:\DEV\TEST\OTD\OTD\obj\Debug\android\assets\System.ServiceModel.Internals.dll
+C:\DEV\TEST\OTD\OTD\obj\Debug\android\assets\Mono.Security.dll
