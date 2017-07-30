@@ -12,6 +12,8 @@ using System.Linq;
 using System.Collections.Generic;
 using Android.Net;
 using System.Net;
+using System.Collections.Specialized;
+using static Android.Util.Xml;
 
 namespace OTD
 {
@@ -244,7 +246,16 @@ namespace OTD
                 //wc.Headers[HttpRequestHeader.ContentType] = "application/x-www-form-urlencoded";
                 string HtmlResult = wc.UploadString(URI, myParameters);
                 Console.WriteLine(HtmlResult);
+
+                //var reqparm = new System.Collections.Specialized.NameValueCollection( );
+                //reqparm.Add("param1", "<any> kinds & of = ? strings");
+                //reqparm.Add("param2", "escaping is already handled");
+                //byte[ ] responsebytes = wc.UploadValues("http://localhost", "POST", reqparm);
+                //Console.WriteLine(responsebytes.ToString());
+                //string responsebody = Encoding.UTF8.GetString(responsebytes);
             }
+
+           
             return result;
         }
     }
