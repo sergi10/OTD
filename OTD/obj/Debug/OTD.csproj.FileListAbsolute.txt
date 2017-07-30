@@ -1,4 +1,3 @@
-C:\DEV\TEST\OTD\OTD\obj\Debug\OTD.csprojResolveAssemblyReference.cache
 C:\DEV\TEST\OTD\OTD\bin\Debug\OTD.dll
 C:\DEV\TEST\OTD\OTD\bin\Debug\OTD.pdb
 C:\DEV\TEST\OTD\OTD\bin\Debug\OTD.OTD.apk
@@ -6,12 +5,13 @@ C:\DEV\TEST\OTD\OTD\bin\Debug\OTD.OTD-Signed.apk
 C:\DEV\TEST\OTD\OTD\obj\Debug\OTD.dll
 C:\DEV\TEST\OTD\OTD\obj\Debug\OTD.pdb
 C:\DEV\TEST\OTD\OTD\obj\Debug\android\bin\OTD.OTD.apk
+C:\DEV\TEST\OTD\OTD\obj\Debug\res\layout\configuracion.xml
 C:\DEV\TEST\OTD\OTD\obj\Debug\res\layout\main.xml
 C:\DEV\TEST\OTD\OTD\obj\Debug\res\values\strings.xml
-C:\DEV\TEST\OTD\OTD\obj\Debug\res\drawable\icon.png
+C:\DEV\TEST\OTD\OTD\obj\Debug\res\drawable\remotegreen.png
+C:\DEV\TEST\OTD\OTD\obj\Debug\res\drawable\remotered.png
+C:\DEV\TEST\OTD\OTD\obj\Debug\res\drawable\remotewhite.png
+C:\DEV\TEST\OTD\OTD\obj\Debug\res\drawable\remotegray.png
+C:\DEV\TEST\OTD\OTD\obj\Debug\res\drawable\remoteorange.png
 C:\DEV\TEST\OTD\OTD\obj\Debug\R.cs.flag
 C:\DEV\TEST\OTD\OTD\obj\Debug\uploadflags.txt
-C:\DEV\TEST\OTD\OTD\bin\Debug\OTD.dll.mdb
-C:\DEV\TEST\OTD\OTD\obj\Debug\android\assets\OTD.dll.mdb
-C:\DEV\TEST\OTD\OTD\obj\Debug\res\drawable\garage.png
-C:\DEV\TEST\OTD\OTD\obj\Debug\res\drawable\openersicon.png

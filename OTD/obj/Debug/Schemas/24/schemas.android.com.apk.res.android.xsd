@@ -2,7 +2,7 @@
 <xs:schema xmlns:android="http://schemas.android.com/apk/res/android" attributeFormDefault="qualified" targetNamespace="http://schemas.android.com/apk/res/android" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:annotation>
     <xs:documentation>v24</xs:documentation>
-    <xs:documentation>29/07/2017 21:37:21</xs:documentation>
+    <xs:documentation>30/07/2017 10:51:54</xs:documentation>
   </xs:annotation>
   <xs:attribute name="accessibilityLiveRegion">
     <xs:annotation>
@@ -773,9 +773,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -1407,9 +1410,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -2080,9 +2086,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -2443,9 +2452,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -2757,9 +2769,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -3381,9 +3396,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -3620,6 +3638,11 @@
             <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@string/Hello" />
             <xs:enumeration value="@string/LabelWiFi" />
+            <xs:enumeration value="@string/lblCodeDoor" />
+            <xs:enumeration value="@string/lblPassWiFi" />
+            <xs:enumeration value="@string/lblUrlDoor" />
+            <xs:enumeration value="@string/lblWiFiList" />
+            <xs:enumeration value="@string/lblWiFiToUse" />
             <xs:enumeration value="@string/Title" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
@@ -3663,6 +3686,11 @@
             <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@string/Hello" />
             <xs:enumeration value="@string/LabelWiFi" />
+            <xs:enumeration value="@string/lblCodeDoor" />
+            <xs:enumeration value="@string/lblPassWiFi" />
+            <xs:enumeration value="@string/lblUrlDoor" />
+            <xs:enumeration value="@string/lblWiFiList" />
+            <xs:enumeration value="@string/lblWiFiToUse" />
             <xs:enumeration value="@string/Title" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
@@ -3703,9 +3731,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -4037,9 +4068,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -4276,6 +4310,11 @@
             <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@string/Hello" />
             <xs:enumeration value="@string/LabelWiFi" />
+            <xs:enumeration value="@string/lblCodeDoor" />
+            <xs:enumeration value="@string/lblPassWiFi" />
+            <xs:enumeration value="@string/lblUrlDoor" />
+            <xs:enumeration value="@string/lblWiFiList" />
+            <xs:enumeration value="@string/lblWiFiToUse" />
             <xs:enumeration value="@string/Title" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
@@ -4316,9 +4355,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -4570,9 +4612,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -4809,6 +4854,11 @@
             <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@string/Hello" />
             <xs:enumeration value="@string/LabelWiFi" />
+            <xs:enumeration value="@string/lblCodeDoor" />
+            <xs:enumeration value="@string/lblPassWiFi" />
+            <xs:enumeration value="@string/lblUrlDoor" />
+            <xs:enumeration value="@string/lblWiFiList" />
+            <xs:enumeration value="@string/lblWiFiToUse" />
             <xs:enumeration value="@string/Title" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
@@ -5264,9 +5314,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -5682,9 +5735,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -6012,6 +6068,11 @@
             <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@string/Hello" />
             <xs:enumeration value="@string/LabelWiFi" />
+            <xs:enumeration value="@string/lblCodeDoor" />
+            <xs:enumeration value="@string/lblPassWiFi" />
+            <xs:enumeration value="@string/lblUrlDoor" />
+            <xs:enumeration value="@string/lblWiFiList" />
+            <xs:enumeration value="@string/lblWiFiToUse" />
             <xs:enumeration value="@string/Title" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
@@ -6068,9 +6129,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -6307,6 +6371,11 @@
             <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@string/Hello" />
             <xs:enumeration value="@string/LabelWiFi" />
+            <xs:enumeration value="@string/lblCodeDoor" />
+            <xs:enumeration value="@string/lblPassWiFi" />
+            <xs:enumeration value="@string/lblUrlDoor" />
+            <xs:enumeration value="@string/lblWiFiList" />
+            <xs:enumeration value="@string/lblWiFiToUse" />
             <xs:enumeration value="@string/Title" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
@@ -6509,9 +6578,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -6823,9 +6895,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -7137,9 +7212,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -7491,9 +7569,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -7805,9 +7886,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -8229,9 +8313,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -8599,9 +8686,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -8877,9 +8967,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -9313,9 +9406,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -9723,9 +9819,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -10251,9 +10350,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -10723,9 +10825,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -11040,6 +11145,11 @@
             <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@string/Hello" />
             <xs:enumeration value="@string/LabelWiFi" />
+            <xs:enumeration value="@string/lblCodeDoor" />
+            <xs:enumeration value="@string/lblPassWiFi" />
+            <xs:enumeration value="@string/lblUrlDoor" />
+            <xs:enumeration value="@string/lblWiFiList" />
+            <xs:enumeration value="@string/lblWiFiToUse" />
             <xs:enumeration value="@string/Title" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
@@ -11083,6 +11193,11 @@
             <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@string/Hello" />
             <xs:enumeration value="@string/LabelWiFi" />
+            <xs:enumeration value="@string/lblCodeDoor" />
+            <xs:enumeration value="@string/lblPassWiFi" />
+            <xs:enumeration value="@string/lblUrlDoor" />
+            <xs:enumeration value="@string/lblWiFiList" />
+            <xs:enumeration value="@string/lblWiFiToUse" />
             <xs:enumeration value="@string/Title" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
@@ -11203,9 +11318,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -11695,6 +11813,11 @@
             <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@string/Hello" />
             <xs:enumeration value="@string/LabelWiFi" />
+            <xs:enumeration value="@string/lblCodeDoor" />
+            <xs:enumeration value="@string/lblPassWiFi" />
+            <xs:enumeration value="@string/lblUrlDoor" />
+            <xs:enumeration value="@string/lblWiFiList" />
+            <xs:enumeration value="@string/lblWiFiToUse" />
             <xs:enumeration value="@string/Title" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
@@ -11738,6 +11861,11 @@
             <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@string/Hello" />
             <xs:enumeration value="@string/LabelWiFi" />
+            <xs:enumeration value="@string/lblCodeDoor" />
+            <xs:enumeration value="@string/lblPassWiFi" />
+            <xs:enumeration value="@string/lblUrlDoor" />
+            <xs:enumeration value="@string/lblWiFiList" />
+            <xs:enumeration value="@string/lblWiFiToUse" />
             <xs:enumeration value="@string/Title" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
@@ -11781,6 +11909,11 @@
             <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@string/Hello" />
             <xs:enumeration value="@string/LabelWiFi" />
+            <xs:enumeration value="@string/lblCodeDoor" />
+            <xs:enumeration value="@string/lblPassWiFi" />
+            <xs:enumeration value="@string/lblUrlDoor" />
+            <xs:enumeration value="@string/lblWiFiList" />
+            <xs:enumeration value="@string/lblWiFiToUse" />
             <xs:enumeration value="@string/Title" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
@@ -11821,9 +11954,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -12057,9 +12193,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -12293,9 +12432,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -12529,9 +12671,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -12765,9 +12910,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -13001,9 +13149,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -13237,9 +13388,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -13473,9 +13627,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -13903,9 +14060,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -14166,9 +14326,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -14402,9 +14565,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -14638,9 +14804,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -14874,9 +15043,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -15150,9 +15322,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -15386,9 +15561,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -15700,9 +15878,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -15976,9 +16157,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -16303,9 +16487,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -16539,9 +16726,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -16858,6 +17048,11 @@
             <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@string/Hello" />
             <xs:enumeration value="@string/LabelWiFi" />
+            <xs:enumeration value="@string/lblCodeDoor" />
+            <xs:enumeration value="@string/lblPassWiFi" />
+            <xs:enumeration value="@string/lblUrlDoor" />
+            <xs:enumeration value="@string/lblWiFiList" />
+            <xs:enumeration value="@string/lblWiFiToUse" />
             <xs:enumeration value="@string/Title" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
@@ -16996,10 +17191,23 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="@+id/" />
             <xs:enumeration value="@+id/stackView1" />
+            <xs:enumeration value="@id/btnConfig" />
+            <xs:enumeration value="@id/btnSave" />
+            <xs:enumeration value="@id/entryCodDoor" />
+            <xs:enumeration value="@id/EntryPassWiFi" />
+            <xs:enumeration value="@id/entryUrlDoor" />
             <xs:enumeration value="@id/LabelCrypt" />
+            <xs:enumeration value="@id/LabelPassWiFi" />
             <xs:enumeration value="@id/LaBelSSID" />
             <xs:enumeration value="@id/LabelWiFi" />
+            <xs:enumeration value="@id/lblCodeDoor" />
+            <xs:enumeration value="@id/lblUrlDoor" />
+            <xs:enumeration value="@id/lblWiFiList" />
+            <xs:enumeration value="@id/lblWiFiToUse" />
+            <xs:enumeration value="@id/lblWiFiToUseSelected" />
+            <xs:enumeration value="@id/OpenDoorButton" />
             <xs:enumeration value="@id/WiFiListView" />
+            <xs:enumeration value="@id/WiFiListView2" />
             <xs:enumeration value="@android:id/accessibilityActionContextClick" />
             <xs:enumeration value="@android:id/accessibilityActionScrollDown" />
             <xs:enumeration value="@android:id/accessibilityActionScrollLeft" />
@@ -17078,9 +17286,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -17335,6 +17546,11 @@
             <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@string/Hello" />
             <xs:enumeration value="@string/LabelWiFi" />
+            <xs:enumeration value="@string/lblCodeDoor" />
+            <xs:enumeration value="@string/lblPassWiFi" />
+            <xs:enumeration value="@string/lblUrlDoor" />
+            <xs:enumeration value="@string/lblWiFiList" />
+            <xs:enumeration value="@string/lblWiFiToUse" />
             <xs:enumeration value="@string/Title" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
@@ -17426,9 +17642,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -17757,9 +17976,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -18321,9 +18543,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -18560,6 +18785,11 @@
             <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@string/Hello" />
             <xs:enumeration value="@string/LabelWiFi" />
+            <xs:enumeration value="@string/lblCodeDoor" />
+            <xs:enumeration value="@string/lblPassWiFi" />
+            <xs:enumeration value="@string/lblUrlDoor" />
+            <xs:enumeration value="@string/lblWiFiList" />
+            <xs:enumeration value="@string/lblWiFiToUse" />
             <xs:enumeration value="@string/Title" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
@@ -18645,9 +18875,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -19041,9 +19274,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -19397,9 +19633,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -19649,9 +19888,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -20346,9 +20588,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -20704,9 +20949,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -21033,6 +21281,11 @@
             <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@string/Hello" />
             <xs:enumeration value="@string/LabelWiFi" />
+            <xs:enumeration value="@string/lblCodeDoor" />
+            <xs:enumeration value="@string/lblPassWiFi" />
+            <xs:enumeration value="@string/lblUrlDoor" />
+            <xs:enumeration value="@string/lblWiFiList" />
+            <xs:enumeration value="@string/lblWiFiToUse" />
             <xs:enumeration value="@string/Title" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
@@ -21233,6 +21486,11 @@
             <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@string/Hello" />
             <xs:enumeration value="@string/LabelWiFi" />
+            <xs:enumeration value="@string/lblCodeDoor" />
+            <xs:enumeration value="@string/lblPassWiFi" />
+            <xs:enumeration value="@string/lblUrlDoor" />
+            <xs:enumeration value="@string/lblWiFiList" />
+            <xs:enumeration value="@string/lblWiFiToUse" />
             <xs:enumeration value="@string/Title" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
@@ -21490,6 +21748,11 @@
             <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@string/Hello" />
             <xs:enumeration value="@string/LabelWiFi" />
+            <xs:enumeration value="@string/lblCodeDoor" />
+            <xs:enumeration value="@string/lblPassWiFi" />
+            <xs:enumeration value="@string/lblUrlDoor" />
+            <xs:enumeration value="@string/lblWiFiList" />
+            <xs:enumeration value="@string/lblWiFiToUse" />
             <xs:enumeration value="@string/Title" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
@@ -21702,9 +21965,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -21950,9 +22216,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -22189,6 +22458,11 @@
             <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@string/Hello" />
             <xs:enumeration value="@string/LabelWiFi" />
+            <xs:enumeration value="@string/lblCodeDoor" />
+            <xs:enumeration value="@string/lblPassWiFi" />
+            <xs:enumeration value="@string/lblUrlDoor" />
+            <xs:enumeration value="@string/lblWiFiList" />
+            <xs:enumeration value="@string/lblWiFiToUse" />
             <xs:enumeration value="@string/Title" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
@@ -22229,9 +22503,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -22505,9 +22782,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -22741,9 +23021,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -22977,9 +23260,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -23213,9 +23499,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -23449,9 +23738,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -24105,6 +24397,11 @@
             <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@string/Hello" />
             <xs:enumeration value="@string/LabelWiFi" />
+            <xs:enumeration value="@string/lblCodeDoor" />
+            <xs:enumeration value="@string/lblPassWiFi" />
+            <xs:enumeration value="@string/lblUrlDoor" />
+            <xs:enumeration value="@string/lblWiFiList" />
+            <xs:enumeration value="@string/lblWiFiToUse" />
             <xs:enumeration value="@string/Title" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
@@ -24160,9 +24457,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -24413,9 +24713,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -24727,9 +25030,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -25469,9 +25775,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -25823,9 +26132,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -26059,9 +26371,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -26298,6 +26613,11 @@
             <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@string/Hello" />
             <xs:enumeration value="@string/LabelWiFi" />
+            <xs:enumeration value="@string/lblCodeDoor" />
+            <xs:enumeration value="@string/lblPassWiFi" />
+            <xs:enumeration value="@string/lblUrlDoor" />
+            <xs:enumeration value="@string/lblWiFiList" />
+            <xs:enumeration value="@string/lblWiFiToUse" />
             <xs:enumeration value="@string/Title" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
@@ -26466,9 +26786,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -26812,9 +27135,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -27048,9 +27374,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -27287,6 +27616,11 @@
             <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@string/Hello" />
             <xs:enumeration value="@string/LabelWiFi" />
+            <xs:enumeration value="@string/lblCodeDoor" />
+            <xs:enumeration value="@string/lblPassWiFi" />
+            <xs:enumeration value="@string/lblUrlDoor" />
+            <xs:enumeration value="@string/lblWiFiList" />
+            <xs:enumeration value="@string/lblWiFiToUse" />
             <xs:enumeration value="@string/Title" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
@@ -27830,9 +28164,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -28066,9 +28403,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -28302,9 +28642,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -28538,9 +28881,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -28954,9 +29300,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -29190,9 +29539,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -29594,9 +29946,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -29830,9 +30185,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -30144,9 +30502,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -30705,6 +31066,11 @@
             <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@string/Hello" />
             <xs:enumeration value="@string/LabelWiFi" />
+            <xs:enumeration value="@string/lblCodeDoor" />
+            <xs:enumeration value="@string/lblPassWiFi" />
+            <xs:enumeration value="@string/lblUrlDoor" />
+            <xs:enumeration value="@string/lblWiFiList" />
+            <xs:enumeration value="@string/lblWiFiToUse" />
             <xs:enumeration value="@string/Title" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
@@ -30825,9 +31191,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -31354,9 +31723,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -31726,9 +32098,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -31977,6 +32352,11 @@
             <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@string/Hello" />
             <xs:enumeration value="@string/LabelWiFi" />
+            <xs:enumeration value="@string/lblCodeDoor" />
+            <xs:enumeration value="@string/lblPassWiFi" />
+            <xs:enumeration value="@string/lblUrlDoor" />
+            <xs:enumeration value="@string/lblWiFiList" />
+            <xs:enumeration value="@string/lblWiFiToUse" />
             <xs:enumeration value="@string/Title" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
@@ -32925,9 +33305,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -33164,6 +33547,11 @@
             <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@string/Hello" />
             <xs:enumeration value="@string/LabelWiFi" />
+            <xs:enumeration value="@string/lblCodeDoor" />
+            <xs:enumeration value="@string/lblPassWiFi" />
+            <xs:enumeration value="@string/lblUrlDoor" />
+            <xs:enumeration value="@string/lblWiFiList" />
+            <xs:enumeration value="@string/lblWiFiToUse" />
             <xs:enumeration value="@string/Title" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
@@ -33204,9 +33592,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -33531,9 +33922,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -33847,9 +34241,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -34083,9 +34480,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -34359,9 +34759,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -34595,9 +34998,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -34834,6 +35240,11 @@
             <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@string/Hello" />
             <xs:enumeration value="@string/LabelWiFi" />
+            <xs:enumeration value="@string/lblCodeDoor" />
+            <xs:enumeration value="@string/lblPassWiFi" />
+            <xs:enumeration value="@string/lblUrlDoor" />
+            <xs:enumeration value="@string/lblWiFiList" />
+            <xs:enumeration value="@string/lblWiFiToUse" />
             <xs:enumeration value="@string/Title" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
@@ -34877,6 +35288,11 @@
             <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@string/Hello" />
             <xs:enumeration value="@string/LabelWiFi" />
+            <xs:enumeration value="@string/lblCodeDoor" />
+            <xs:enumeration value="@string/lblPassWiFi" />
+            <xs:enumeration value="@string/lblUrlDoor" />
+            <xs:enumeration value="@string/lblWiFiList" />
+            <xs:enumeration value="@string/lblWiFiToUse" />
             <xs:enumeration value="@string/Title" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
@@ -34982,9 +35398,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -35218,9 +35637,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -35532,9 +35954,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -35846,9 +36271,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -36160,9 +36588,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -36474,9 +36905,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -36736,9 +37170,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -36972,9 +37409,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -37208,9 +37648,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -37444,9 +37887,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -37680,9 +38126,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -37916,9 +38365,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -38152,9 +38604,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -38471,6 +38926,11 @@
             <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@string/Hello" />
             <xs:enumeration value="@string/LabelWiFi" />
+            <xs:enumeration value="@string/lblCodeDoor" />
+            <xs:enumeration value="@string/lblPassWiFi" />
+            <xs:enumeration value="@string/lblUrlDoor" />
+            <xs:enumeration value="@string/lblWiFiList" />
+            <xs:enumeration value="@string/lblWiFiToUse" />
             <xs:enumeration value="@string/Title" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
@@ -38514,6 +38974,11 @@
             <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@string/Hello" />
             <xs:enumeration value="@string/LabelWiFi" />
+            <xs:enumeration value="@string/lblCodeDoor" />
+            <xs:enumeration value="@string/lblPassWiFi" />
+            <xs:enumeration value="@string/lblUrlDoor" />
+            <xs:enumeration value="@string/lblWiFiList" />
+            <xs:enumeration value="@string/lblWiFiToUse" />
             <xs:enumeration value="@string/Title" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
@@ -38566,9 +39031,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -38802,9 +39270,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -39038,9 +39509,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -40221,9 +40695,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -40647,9 +41124,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -41011,6 +41491,11 @@
             <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@string/Hello" />
             <xs:enumeration value="@string/LabelWiFi" />
+            <xs:enumeration value="@string/lblCodeDoor" />
+            <xs:enumeration value="@string/lblPassWiFi" />
+            <xs:enumeration value="@string/lblUrlDoor" />
+            <xs:enumeration value="@string/lblWiFiList" />
+            <xs:enumeration value="@string/lblWiFiToUse" />
             <xs:enumeration value="@string/Title" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
@@ -41157,6 +41642,11 @@
             <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@string/Hello" />
             <xs:enumeration value="@string/LabelWiFi" />
+            <xs:enumeration value="@string/lblCodeDoor" />
+            <xs:enumeration value="@string/lblPassWiFi" />
+            <xs:enumeration value="@string/lblUrlDoor" />
+            <xs:enumeration value="@string/lblWiFiList" />
+            <xs:enumeration value="@string/lblWiFiToUse" />
             <xs:enumeration value="@string/Title" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
@@ -41397,9 +41887,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -41804,9 +42297,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -42289,6 +42785,11 @@
             <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@string/Hello" />
             <xs:enumeration value="@string/LabelWiFi" />
+            <xs:enumeration value="@string/lblCodeDoor" />
+            <xs:enumeration value="@string/lblPassWiFi" />
+            <xs:enumeration value="@string/lblUrlDoor" />
+            <xs:enumeration value="@string/lblWiFiList" />
+            <xs:enumeration value="@string/lblWiFiToUse" />
             <xs:enumeration value="@string/Title" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
@@ -42557,9 +43058,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -43019,9 +43523,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -43271,9 +43778,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -43507,9 +44017,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -43743,9 +44256,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -44057,9 +44573,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -44423,9 +44942,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -44659,9 +45181,12 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/garage" />
-            <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/openersicon" />
+            <xs:enumeration value="@drawable/remotecall" />
+            <xs:enumeration value="@drawable/remotegray" />
+            <xs:enumeration value="@drawable/remotegreen" />
+            <xs:enumeration value="@drawable/remoteorange" />
+            <xs:enumeration value="@drawable/remotered" />
+            <xs:enumeration value="@drawable/remotewhite" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />

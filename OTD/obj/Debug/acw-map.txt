@@ -1,3 +1,7 @@
+OTD.ConfigActivity, OTD;md57333a10da92bb1c9a5770e846ca77aca.ConfigActivity
+OTD.ConfigActivity, OTD, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md57333a10da92bb1c9a5770e846ca77aca.ConfigActivity
+OTD.ConfigActivity;md57333a10da92bb1c9a5770e846ca77aca.ConfigActivity
+otd.ConfigActivity;md57333a10da92bb1c9a5770e846ca77aca.ConfigActivity
 OTD.MainActivity, OTD;md57333a10da92bb1c9a5770e846ca77aca.MainActivity
 OTD.MainActivity, OTD, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md57333a10da92bb1c9a5770e846ca77aca.MainActivity
 OTD.MainActivity;md57333a10da92bb1c9a5770e846ca77aca.MainActivity
