@@ -11,6 +11,7 @@ using OTD.Models;
 using System.Linq;
 using System.Collections.Generic;
 using Android.Net;
+using System.Net;
 
 namespace OTD
 {
@@ -67,8 +68,9 @@ namespace OTD
         private void _IconButton_Click(object sender, EventArgs e)
         {
             _IconButton.SetImageResource(Resource.Drawable.remotegray);
-            RefreshWifiList( );
-            _IconButton.Enabled = false;
+            //RefreshWifiList( );
+            //_IconButton.Enabled = false;
+            _IconButton.Enabled = Hodoor( );
         }
 
         #region WiFi MANGEMENT
@@ -211,6 +213,40 @@ namespace OTD
             });
         }
 
+
+        private bool Hodoor( )
+        {
+            bool result = false;
+            using (var client = new WebClient( ))
+            {
+                var a = 50;
+                var b = 100;
+                //var response = client.DownloadString(string.Format("http://example.com/add.php?a={0}&b={1}", a, b));
+                var response2 = client.DownloadString(string.Format("http://httpbin.org/get"));
+
+                //var respuesta =  client.PostAsync(string.Format("http://httpbin.org/get");
+                //System.Diagnostics.Debug.WriteLine("\n\nO_Transaction Request for " + request.@params.model.ToUpper( ));
+                //if (respuesta.StatusCode == HttpStatusCode.OK)
+                //{
+                //var response3= client.DownloadString(string.Format("http://httpbin.org/post"));
+                //Console.WriteLine(response);
+                Console.WriteLine(response2);
+                //Console.WriteLine(response3);
+            }
+           
+            //string URI = "http://www.myurl.com/post.php";
+            //string myParameters = "param1=value1&param2=value2&param3=value3";
+            string URI = " https://httpbin.org/get";
+            string myParameters = "?show_env=1";
+
+            using (WebClient wc = new WebClient( ))
+            {
+                //wc.Headers[HttpRequestHeader.ContentType] = "application/x-www-form-urlencoded";
+                string HtmlResult = wc.UploadString(URI, myParameters);
+                Console.WriteLine(HtmlResult);
+            }
+            return result;
+        }
     }
 }
 
