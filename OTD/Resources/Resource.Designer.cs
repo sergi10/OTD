@@ -78,17 +78,14 @@ namespace OTD
 			// aapt resource value: 0x7f05000b
 			public const int LaBelSSID = 2131034123;
 			
-			// aapt resource value: 0x7f05000c
-			public const int LabelCrypt = 2131034124;
-			
 			// aapt resource value: 0x7f050000
 			public const int LabelPassWiFi = 2131034112;
 			
 			// aapt resource value: 0x7f05000f
 			public const int LabelWiFi = 2131034127;
 			
-			// aapt resource value: 0x7f05000d
-			public const int OpenDoorButton = 2131034125;
+			// aapt resource value: 0x7f05000c
+			public const int OpenDoorButton = 2131034124;
 			
 			// aapt resource value: 0x7f050010
 			public const int WiFiListView = 2131034128;
@@ -96,8 +93,11 @@ namespace OTD
 			// aapt resource value: 0x7f05000a
 			public const int WiFiListView2 = 2131034122;
 			
+			// aapt resource value: 0x7f05000d
+			public const int btnConfig = 2131034125;
+			
 			// aapt resource value: 0x7f05000e
-			public const int btnConfig = 2131034126;
+			public const int btnExit = 2131034126;
 			
 			// aapt resource value: 0x7f050008
 			public const int btnSave = 2131034120;

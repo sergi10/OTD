@@ -2,7 +2,7 @@
 <xs:schema xmlns:android="http://schemas.android.com/apk/res/android" attributeFormDefault="qualified" targetNamespace="http://schemas.android.com/apk/res/android" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:annotation>
     <xs:documentation>v24</xs:documentation>
-    <xs:documentation>30/07/2017 10:51:54</xs:documentation>
+    <xs:documentation>30/07/2017 11:38:12</xs:documentation>
   </xs:annotation>
   <xs:attribute name="accessibilityLiveRegion">
     <xs:annotation>
@@ -773,7 +773,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -1410,7 +1409,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -2086,7 +2084,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -2452,7 +2449,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -2769,7 +2765,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -3396,7 +3391,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -3731,7 +3725,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -4068,7 +4061,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -4355,7 +4347,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -4612,7 +4603,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -5314,7 +5304,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -5735,7 +5724,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -6129,7 +6117,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -6578,7 +6565,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -6895,7 +6881,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -7212,7 +7197,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -7569,7 +7553,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -7886,7 +7869,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -8313,7 +8295,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -8686,7 +8667,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -8967,7 +8947,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -9406,7 +9385,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -9819,7 +9797,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -10350,7 +10327,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -10825,7 +10801,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -11318,7 +11293,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -11954,7 +11928,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -12193,7 +12166,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -12432,7 +12404,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -12671,7 +12642,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -12910,7 +12880,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -13149,7 +13118,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -13388,7 +13356,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -13627,7 +13594,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -14060,7 +14026,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -14326,7 +14291,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -14565,7 +14529,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -14804,7 +14767,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -15043,7 +15005,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -15322,7 +15283,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -15561,7 +15521,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -15878,7 +15837,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -16157,7 +16115,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -16487,7 +16444,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -16726,7 +16682,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -17192,11 +17147,11 @@
             <xs:enumeration value="@+id/" />
             <xs:enumeration value="@+id/stackView1" />
             <xs:enumeration value="@id/btnConfig" />
+            <xs:enumeration value="@id/btnExit" />
             <xs:enumeration value="@id/btnSave" />
             <xs:enumeration value="@id/entryCodDoor" />
             <xs:enumeration value="@id/EntryPassWiFi" />
             <xs:enumeration value="@id/entryUrlDoor" />
-            <xs:enumeration value="@id/LabelCrypt" />
             <xs:enumeration value="@id/LabelPassWiFi" />
             <xs:enumeration value="@id/LaBelSSID" />
             <xs:enumeration value="@id/LabelWiFi" />
@@ -17286,7 +17241,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -17642,7 +17596,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -17976,7 +17929,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -18543,7 +18495,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -18875,7 +18826,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -19274,7 +19224,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -19633,7 +19582,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -19888,7 +19836,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -20588,7 +20535,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -20949,7 +20895,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -21965,7 +21910,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -22216,7 +22160,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -22503,7 +22446,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -22782,7 +22724,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -23021,7 +22962,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -23260,7 +23200,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -23499,7 +23438,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -23738,7 +23676,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -24457,7 +24394,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -24713,7 +24649,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -25030,7 +24965,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -25775,7 +25709,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -26132,7 +26065,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -26371,7 +26303,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -26786,7 +26717,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -27135,7 +27065,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -27374,7 +27303,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -28164,7 +28092,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -28403,7 +28330,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -28642,7 +28568,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -28881,7 +28806,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -29300,7 +29224,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -29539,7 +29462,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -29946,7 +29868,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -30185,7 +30106,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -30502,7 +30422,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -31191,7 +31110,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -31723,7 +31641,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -32098,7 +32015,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -33305,7 +33221,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -33592,7 +33507,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -33922,7 +33836,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -34241,7 +34154,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -34480,7 +34392,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -34759,7 +34670,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -34998,7 +34908,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -35398,7 +35307,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -35637,7 +35545,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -35954,7 +35861,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -36271,7 +36177,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -36588,7 +36493,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -36905,7 +36809,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -37170,7 +37073,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -37409,7 +37311,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -37648,7 +37549,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -37887,7 +37787,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -38126,7 +38025,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -38365,7 +38263,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -38604,7 +38501,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -39031,7 +38927,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -39270,7 +39165,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -39509,7 +39403,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -40695,7 +40588,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -41124,7 +41016,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -41887,7 +41778,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -42297,7 +42187,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -43058,7 +42947,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -43523,7 +43411,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -43778,7 +43665,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -44017,7 +43903,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -44256,7 +44141,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -44573,7 +44457,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -44942,7 +44825,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />
@@ -45181,7 +45063,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/remotecall" />
             <xs:enumeration value="@drawable/remotegray" />
             <xs:enumeration value="@drawable/remotegreen" />
             <xs:enumeration value="@drawable/remoteorange" />

@@ -20,13 +20,13 @@ public final class R {
     public static final class id {
         public static final int EntryPassWiFi=0x7f050001;
         public static final int LaBelSSID=0x7f05000b;
-        public static final int LabelCrypt=0x7f05000c;
         public static final int LabelPassWiFi=0x7f050000;
         public static final int LabelWiFi=0x7f05000f;
-        public static final int OpenDoorButton=0x7f05000d;
+        public static final int OpenDoorButton=0x7f05000c;
         public static final int WiFiListView=0x7f050010;
         public static final int WiFiListView2=0x7f05000a;
-        public static final int btnConfig=0x7f05000e;
+        public static final int btnConfig=0x7f05000d;
+        public static final int btnExit=0x7f05000e;
         public static final int btnSave=0x7f050008;
         public static final int entryCodDoor=0x7f050003;
         public static final int entryUrlDoor=0x7f050005;
