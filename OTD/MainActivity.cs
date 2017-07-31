@@ -14,20 +14,27 @@ using Android.Net;
 using System.Net;
 using System.Collections.Specialized;
 using static Android.Util.Xml;
+using System.Reflection;
+using System.IO;
+using Android.Content.Res;
+using Newtonsoft.Json;
 
 namespace OTD
 {
-    [Activity(Label = "@string/Title", MainLauncher = true, Icon = "@drawable/remoteorange")]
+    [Activity(Label = "@string/Title", MainLauncher = true, Icon = "@drawable/remotewhite")]
     public class MainActivity : Activity
     {
         private ListView _listView;
         private ArrayAdapter<WiFiDetail> _adapter;
         private WiFiDetail selected = new WiFiDetail( );
+        private DataConfig dataConfig = new DataConfig( );
         WifiManager wifiManager;
         TextView _labelSsid;
         ImageButton _IconButton;
         Button _ConfigButton;
         Button _ExitButton;
+        public string FileConfig { get { return "otd_conf.json"; } }
+
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
@@ -72,8 +79,43 @@ namespace OTD
             _IconButton.SetImageResource(Resource.Drawable.remotegray);
             //RefreshWifiList( );
             //_IconButton.Enabled = false;
-            _IconButton.Enabled = Hodoor( );
+            //_IconButton.Enabled = Hodoor( );
+            this.ReadConfig( );
         }
+
+        private bool ReadConfig( )
+        {
+            bool result = false;
+
+            using (StreamReader sr = new StreamReader(Assets.Open(FileConfig)))
+            {
+                var json = sr.ReadToEnd( );
+                dataConfig = JsonConvert.DeserializeObject<DataConfig>(json);
+
+                if (this.WriteConfig( ))
+                {
+                    result = true;
+                }
+            }
+            return result;
+        }
+        private bool WriteConfig( )
+        {
+            bool result = false;
+
+            dataConfig.baseURI = "baseUri Cambiada";
+            string json = JsonConvert.SerializeObject(dataConfig);
+            string path = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
+            string filePath = Path.Combine(path, FileConfig);
+            using (var file = File.Open(filePath, FileMode.Create, FileAccess.Write))
+            using (var strm = new StreamWriter(file))
+            {
+                strm.Write(json);
+                result = true;
+            }
+            return result;
+        }
+
 
         #region WiFi MANGEMENT
 
@@ -235,7 +277,7 @@ namespace OTD
                 Console.WriteLine(response2);
                 //Console.WriteLine(response3);
             }
-           
+
             //string URI = "http://www.myurl.com/post.php";
             //string myParameters = "param1=value1&param2=value2&param3=value3";
             string URI = " https://httpbin.org/get";
@@ -255,7 +297,7 @@ namespace OTD
                 //string responsebody = Encoding.UTF8.GetString(responsebytes);
             }
 
-           
+
             return result;
         }
     }
