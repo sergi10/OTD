@@ -1,7 +1,7 @@
 ﻿{
-   "baseURI":"baseURI",
-   "methodURI":"methodURI",
-   "SSID":"SSID",
+   "baseURI":"http://192.168.0.5:88/SCB",
+   "methodURI":"/code2.php",
+   "SSID":"AlmondCenterParking",
    "passW":"passW",
    "code":"code",
 }

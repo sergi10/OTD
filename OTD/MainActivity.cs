@@ -24,16 +24,14 @@ namespace OTD
     [Activity(Label = "@string/Title", MainLauncher = true, Icon = "@drawable/remotewhite")]
     public class MainActivity : Activity
     {
-        private ListView _listView;
-        private ArrayAdapter<WiFiDetail> _adapter;
-        private WiFiDetail selected = new WiFiDetail( );
-        private DataConfig dataConfig = new DataConfig( );
+        private WiFiDetail selected = new WiFiDetail();
+        private DataConfig dataConfig = new DataConfig();
         WifiManager wifiManager;
         TextView _labelSsid;
         ImageButton _IconButton;
         Button _ConfigButton;
         Button _ExitButton;
-        public string FileConfig { get { return "otd_conf.json"; } }
+        private string FileConfig;
 
         protected override void OnCreate(Bundle bundle)
         {
@@ -41,36 +39,39 @@ namespace OTD
 
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Main);
-
-            // Get our button from the layout resource,
-            // and attach an event to it
-            _listView = FindViewById<ListView>(Resource.Id.WiFiListView);
+            FileConfig= "otd_conf.json";
+            //_listView = FindViewById<ListView>(Resource.Id.WiFiListView);
             _labelSsid = FindViewById<TextView>(Resource.Id.LaBelSSID);
             _IconButton = FindViewById<ImageButton>(Resource.Id.OpenDoorButton);
             _ConfigButton = FindViewById<Button>(Resource.Id.btnConfig);
             _ExitButton = FindViewById<Button>(Resource.Id.btnExit);
 
-            //OpenDoorButton
-            wifiManager = GetSystemService(WifiService).JavaCast<WifiManager>( );
+            wifiManager = GetSystemService(WifiService).JavaCast<WifiManager>();
 
             _IconButton.Click += _IconButton_Click;
             _ConfigButton.Click += _ConfigButton_Click;
             _ExitButton.Click += _ExitButton_Click;
-
-            _listView.ItemClick += ListViewOnItemClick;
-
+            //_listView.ItemClick += ListViewOnItemClick;
+            //if (!this.ReadConfig())
+            //{
+            //    _labelSsid.Text = "ERROR EN FICHERO DE CONFIGURACION";
+            //    _IconButton.Enabled = false;
+            //    _ConfigButton.Enabled = false;
+            //    _ExitButton.Enabled = true;
+            //}
         }
 
         private void _ExitButton_Click(object sender, EventArgs e)
         {
             //var activity = (Activity)this.BaseContext;
-            this.FinishAffinity( );
-            //Android.OS.Process.KillProcess(Android.OS.Process.MyPid( ));
+            //this.FinishAffinity();
+            Android.OS.Process.KillProcess(Android.OS.Process.MyPid());
         }
 
         private void _ConfigButton_Click(object sender, EventArgs e)
         {
             var Intent = new Android.Content.Intent(this, typeof(ConfigActivity));
+            Intent.PutExtra("currentConfig", JsonConvert.SerializeObject(dataConfig));
             StartActivity(Intent);
         }
 
@@ -80,92 +81,108 @@ namespace OTD
             //RefreshWifiList( );
             //_IconButton.Enabled = false;
             //_IconButton.Enabled = Hodoor( );
-            this.ReadConfig( );
+            //this.ReadConfig();
+            if (!this.ReadConfig())
+            {
+                _labelSsid.Text = "ERROR EN FICHERO DE CONFIGURACION";
+                _IconButton.Enabled = false;
+                _ConfigButton.Enabled = false;
+                _ExitButton.Enabled = true;
+            }
         }
 
-        private bool ReadConfig( )
+        private bool ReadConfig()
         {
             bool result = false;
 
             using (StreamReader sr = new StreamReader(Assets.Open(FileConfig)))
             {
-                var json = sr.ReadToEnd( );
-                dataConfig = JsonConvert.DeserializeObject<DataConfig>(json);
-
-                if (this.WriteConfig( ))
+                try
                 {
-                    result = true;
+                    var json = sr.ReadToEnd();
+                    dataConfig = JsonConvert.DeserializeObject<DataConfig>(json);
+
+                    if (dataConfig != null)
+                    {
+                        result = true;
+                    }
+                }
+                catch (Exception e)
+                {
+                    _labelSsid.Text = e.Message;
                 }
             }
             return result;
         }
-        private bool WriteConfig( )
-        {
-            bool result = false;
+        //private bool WriteConfig()
+        //{
+        //    bool result = false;
 
-            dataConfig.baseURI = "baseUri Cambiada";
-            string json = JsonConvert.SerializeObject(dataConfig);
-            string path = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
-            string filePath = Path.Combine(path, FileConfig);
-            using (var file = File.Open(filePath, FileMode.Create, FileAccess.Write))
-            using (var strm = new StreamWriter(file))
-            {
-                strm.Write(json);
-                result = true;
-            }
-            return result;
-        }
+        //    dataConfig.baseURI = "baseUri Cambiada";
+        //    string json = JsonConvert.SerializeObject(dataConfig);
+        //    string path = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
+        //    string filePath = Path.Combine(path, FileConfig);
+        //    using (var file = File.Open(filePath, FileMode.Create, FileAccess.Write))
+        //    using (var strm = new StreamWriter(file))
+        //    {
+        //        strm.Write(json);
+        //        result = true;
+        //    }
+        //    return result;
+        //}
 
 
         #region WiFi MANGEMENT
 
-        private bool AddNetwork( )
+        private bool AddNetwork()
         {
             bool result = false;
-            try
+            if (dataConfig != null)
             {
-                var networkPass = "detrasdelapuertaestaelsaber";
-                var config = new WifiConfiguration( );
-                // Solo para  WPA/WPA2, WEP es diferente
-                config.PreSharedKey = '"' + networkPass + '"';
-                config.Ssid = '"' + selected.SSID + '"';
+                try
+                {
+                    var networkPass = dataConfig.passW;
+                    var config = new WifiConfiguration();
+                    // Solo para  WPA/WPA2, WEP es diferente
+                    config.PreSharedKey = '"' + dataConfig.passW + '"';
+                    config.Ssid = '"' + dataConfig.SSID + '"';
 
-                wifiManager.AddNetwork(config);
-
-                result = true;
-            }
-            catch (Exception)
-            {
-                throw;
+                    wifiManager.AddNetwork(config);
+                    result = true;
+                }
+                catch (Exception e)
+                {
+                    _labelSsid.Text = e.Message;
+                }
             }
             return result;
         }
 
-        private bool Connect2Network( )
+        private bool Connect2Network()
         {
             var context = this.BaseContext;
             bool result = false;
             try
             {
                 IList<WifiConfiguration> myWifiList = wifiManager.ConfiguredNetworks;
-                wifiManager.Disconnect( );
-                WifiConfiguration myWiFi = myWifiList.Where(x => x.Ssid.Contains(selected.SSID)).FirstOrDefault( );
+                wifiManager.Disconnect();
+                WifiConfiguration myWiFi = myWifiList.Where(x => x.Ssid.Contains(dataConfig.SSID)).FirstOrDefault();
                 wifiManager.EnableNetwork(myWiFi.NetworkId, true);
-                wifiManager.Reconnect( );
+                wifiManager.Reconnect();
 
                 Thread.Sleep(TimeSpan.FromSeconds(3));
                 var current = getCurrentSsid(context);
                 WifiInfo info = wifiManager.ConnectionInfo;
                 var currentWI = info.SSID.Trim('"');
 
-                if (current == selected.SSID || currentWI == selected.SSID)
+                if (current == dataConfig.SSID || currentWI == dataConfig.SSID)
                 {
                     result = true;
                 }
             }
-            catch (Exception)
+            catch (Exception e)
             {
-                throw;
+                _labelSsid.Text = e.Message;
             }
             return result;
         }
@@ -194,74 +211,74 @@ namespace OTD
         }
         #endregion
 
-        private void ListViewOnItemClick(object sender, AdapterView.ItemClickEventArgs e)
-        {
-            selected = _adapter.GetItem(e.Position);
-            _labelSsid.Text = selected.SSID;
-            //ThreadPool.QueueUserWorkItem(lol2 =>
-            //{
-            if (AddNetwork( ))
-            {
-                if (Connect2Network( ))
-                {
-                    _labelSsid.Text += "  --> CONECTADO";
-                    //RunOnUiThread(( ) => _IconButton.SetImageResource(Resource.Drawable.remotegreen));
-                    _IconButton.SetImageResource(Resource.Drawable.remotegreen);
-                    _ConfigButton.Visibility = Android.Views.ViewStates.Gone;
-                    _ExitButton.Visibility = Android.Views.ViewStates.Visible;
-                    Thread.Sleep(TimeSpan.FromSeconds(2));
-                }
-                else
-                {
-                    _labelSsid.Text = " ERROR!!! \n SIN CONEXION";
-                    _IconButton.SetImageResource(Resource.Drawable.remotered);
-                    selected = null;
-                    _IconButton.Enabled = true;
-                }
-            }
-        }
+        //private void ListViewOnItemClick(object sender, AdapterView.ItemClickEventArgs e)
+        //{
+        //    selected = _adapter.GetItem(e.Position);
+        //    _labelSsid.Text = selected.SSID;
+        //    //ThreadPool.QueueUserWorkItem(lol2 =>
+        //    //{
+        //    if (AddNetwork( ))
+        //    {
+        //        if (Connect2Network( ))
+        //        {
+        //            _labelSsid.Text += "  --> CONECTADO";
+        //            //RunOnUiThread(( ) => _IconButton.SetImageResource(Resource.Drawable.remotegreen));
+        //            _IconButton.SetImageResource(Resource.Drawable.remotegreen);
+        //            _ConfigButton.Visibility = Android.Views.ViewStates.Gone;
+        //            _ExitButton.Visibility = Android.Views.ViewStates.Visible;
+        //            Thread.Sleep(TimeSpan.FromSeconds(2));
+        //        }
+        //        else
+        //        {
+        //            _labelSsid.Text = " ERROR!!! \n SIN CONEXION";
+        //            _IconButton.SetImageResource(Resource.Drawable.remotered);
+        //            selected = null;
+        //            _IconButton.Enabled = true;
+        //        }
+        //    }
+        //}
 
-        private void RefreshWifiList( )
-        {
+        //private void RefreshWifiList( )
+        //{
 
-            if (!wifiManager.IsWifiEnabled)
-                wifiManager.SetWifiEnabled(true);
-            wifiManager.StartScan( );
+        //    if (!wifiManager.IsWifiEnabled)
+        //        wifiManager.SetWifiEnabled(true);
+        //    wifiManager.StartScan( );
 
-            ThreadPool.QueueUserWorkItem(lol =>
-            {
-                Thread.Sleep(TimeSpan.FromSeconds(3));
+        //    ThreadPool.QueueUserWorkItem(lol =>
+        //    {
+        //        Thread.Sleep(TimeSpan.FromSeconds(3));
 
-                var wifiList = wifiManager.ScanResults;
+        //        var wifiList = wifiManager.ScanResults;
 
-                if (null == _adapter)
-                {
-                    _adapter = new ArrayAdapter<WiFiDetail>(this, Android.Resource.Layout.SimpleListItemSingleChoice,
-                                                       Android.Resource.Id.Text1);
-                    RunOnUiThread(( ) => _listView.Adapter = _adapter);
-                }
+        //        if (null == _adapter)
+        //        {
+        //            _adapter = new ArrayAdapter<WiFiDetail>(this, Android.Resource.Layout.SimpleListItemSingleChoice,
+        //                                               Android.Resource.Id.Text1);
+        //            RunOnUiThread(( ) => _listView.Adapter = _adapter);
+        //        }
 
-                if (_adapter.Count > 0)
-                {
-                    RunOnUiThread(( ) => _adapter.Clear( ));
-                }
-
-
-                foreach (var wifi in wifiList)
-                {
-                    var wifi1 = wifi;
-                    RunOnUiThread(( ) => _adapter.Add(new WiFiDetail { SSID = wifi1.Ssid, Encryption = wifi1.Capabilities }));
-                }
-
-                RunOnUiThread(( ) => _adapter.NotifyDataSetChanged( ));
-            });
-        }
+        //        if (_adapter.Count > 0)
+        //        {
+        //            RunOnUiThread(( ) => _adapter.Clear( ));
+        //        }
 
 
-        private bool Hodoor( )
+        //        foreach (var wifi in wifiList)
+        //        {
+        //            var wifi1 = wifi;
+        //            RunOnUiThread(( ) => _adapter.Add(new WiFiDetail { SSID = wifi1.Ssid, Encryption = wifi1.Capabilities }));
+        //        }
+
+        //        RunOnUiThread(( ) => _adapter.NotifyDataSetChanged( ));
+        //    });
+        //}
+
+
+        private bool Hodoor()
         {
             bool result = false;
-            using (var client = new WebClient( ))
+            using (var client = new WebClient())
             {
                 var a = 50;
                 var b = 100;
@@ -283,7 +300,7 @@ namespace OTD
             string URI = " https://httpbin.org/get";
             string myParameters = "?show_env=1";
 
-            using (WebClient wc = new WebClient( ))
+            using (WebClient wc = new WebClient())
             {
                 //wc.Headers[HttpRequestHeader.ContentType] = "application/x-www-form-urlencoded";
                 string HtmlResult = wc.UploadString(URI, myParameters);

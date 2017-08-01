@@ -8,7 +8,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/LaBelSSID" />
-   
     <ImageButton
         android:id="@+id/OpenDoorButton"
         android:layout_width="wrap_content"
@@ -18,7 +17,8 @@
         android:layout_marginBottom="6dp"
         android:scaleX="0.70"
         android:scaleY="0.70"
-        android:backgroundTint="#00000000" />
+        android:backgroundTint="#00000000"
+        android:visibility="gone" />
     <Button
         android:text="Configuracion"
         android:layout_width="match_parent"
@@ -30,18 +30,4 @@
         android:layout_height="wrap_content"
         android:id="@+id/btnExit"
         android:visibility="gone" />
-    <TextView
-        android:text="@string/LabelWiFi"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/LabelWiFi"
-        android:gravity="top" />
-    <ListView
-        android:minWidth="25px"
-        android:minHeight="25px"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/WiFiListView"
-        android:fastScrollEnabled="true" />
 </LinearLayout>
