@@ -31,7 +31,7 @@ namespace OTD
         ImageButton _IconButton;
         Button _ConfigButton;
         Button _ExitButton;
-        private string FileConfig;
+        private string FileConfig = "otd_conf.json";
 
         protected override void OnCreate(Bundle bundle)
         {
@@ -39,7 +39,7 @@ namespace OTD
 
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Main);
-            FileConfig= "otd_conf.json";
+            //FileConfig= "otd_conf.json";
             //_listView = FindViewById<ListView>(Resource.Id.WiFiListView);
             _labelSsid = FindViewById<TextView>(Resource.Id.LaBelSSID);
             _IconButton = FindViewById<ImageButton>(Resource.Id.OpenDoorButton);
@@ -85,10 +85,39 @@ namespace OTD
             if (!this.ReadConfig())
             {
                 _labelSsid.Text = "ERROR EN FICHERO DE CONFIGURACION";
+                _IconButton.SetImageResource(Resource.Drawable.remotered);
                 _IconButton.Enabled = false;
                 _ConfigButton.Enabled = false;
                 _ExitButton.Enabled = true;
             }
+            else
+            {
+                if (AddNetwork())
+                {
+                    if (Connect2Network())
+                    {
+                        if (Hodoor())
+                        {
+                            _IconButton.SetImageResource(Resource.Drawable.remotegreen);
+                            _ConfigButton.Enabled = false;
+                            _ExitButton.Enabled = true;
+                        }
+                        else
+                        {
+                            _IconButton.SetImageResource(Resource.Drawable.remotegreen);
+                        }
+                    }
+                    else
+                    {
+                        _IconButton.SetImageResource(Resource.Drawable.remotegreen);
+                    }
+                }
+                else
+                {
+                    _IconButton.SetImageResource(Resource.Drawable.remotegreen);
+                }
+            }
+
         }
 
         private bool ReadConfig()
@@ -278,39 +307,24 @@ namespace OTD
         private bool Hodoor()
         {
             bool result = false;
-            using (var client = new WebClient())
-            {
-                var a = 50;
-                var b = 100;
-                //var response = client.DownloadString(string.Format("http://example.com/add.php?a={0}&b={1}", a, b));
-                var response2 = client.DownloadString(string.Format("http://httpbin.org/get"));
 
-                //var respuesta =  client.PostAsync(string.Format("http://httpbin.org/get");
-                //System.Diagnostics.Debug.WriteLine("\n\nO_Transaction Request for " + request.@params.model.ToUpper( ));
-                //if (respuesta.StatusCode == HttpStatusCode.OK)
-                //{
-                //var response3= client.DownloadString(string.Format("http://httpbin.org/post"));
-                //Console.WriteLine(response);
-                Console.WriteLine(response2);
-                //Console.WriteLine(response3);
-            }
-
-            //string URI = "http://www.myurl.com/post.php";
-            //string myParameters = "param1=value1&param2=value2&param3=value3";
-            string URI = " https://httpbin.org/get";
-            string myParameters = "?show_env=1";
+            string URI = "http://" + dataConfig.baseURI + dataConfig.methodURI;
+            string URI2 = "http://" + dataConfig.baseURI + dataConfig.methodURI + "?code=" + dataConfig.code + "&bac=ACCESO";
+            string myParameters = "?code=" + dataConfig.code + "&bac=ACCESO";
 
             using (WebClient wc = new WebClient())
             {
                 //wc.Headers[HttpRequestHeader.ContentType] = "application/x-www-form-urlencoded";
                 string HtmlResult = wc.UploadString(URI, myParameters);
                 Console.WriteLine(HtmlResult);
+                var response3 = wc.DownloadString(URI2);
+                Console.WriteLine(HtmlResult);
 
-                //var reqparm = new System.Collections.Specialized.NameValueCollection( );
-                //reqparm.Add("param1", "<any> kinds & of = ? strings");
-                //reqparm.Add("param2", "escaping is already handled");
-                //byte[ ] responsebytes = wc.UploadValues("http://localhost", "POST", reqparm);
-                //Console.WriteLine(responsebytes.ToString());
+                var reqparm = new System.Collections.Specialized.NameValueCollection();
+                reqparm.Add("code", dataConfig.code);
+                reqparm.Add("param2", "ACCESO");
+                byte[] responsebytes = wc.UploadValues("http://localhost", "POST", reqparm);
+                Console.WriteLine(responsebytes.ToString());
                 //string responsebody = Encoding.UTF8.GetString(responsebytes);
             }
 

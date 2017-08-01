@@ -40,6 +40,18 @@
         android:id="@+id/entryUrlDoor"
         android:hint="EJ: http://192.168.1.1:88" />
     <TextView
+        android:text="@string/lblMethod"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lblMethod" />
+    <EditText
+        android:inputType="textEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/entryMethod"
+        android:hint="EJ: /cod2.php" />
+    <TextView
         android:text="@string/lblWiFiToUse"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:layout_width="match_parent"

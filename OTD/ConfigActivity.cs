@@ -2,6 +2,7 @@
 using Android.App;
 using Android.Content;
 using Android.Runtime;
+using Android.Views;
 using Android.Widget;
 using Android.OS;
 using Android.Net.Wifi;
@@ -11,7 +12,11 @@ using System.Linq;
 using System.Collections.Generic;
 using Android.Net;
 using System.Net;
+using System.Collections.Specialized;
+using static Android.Util.Xml;
+using System.Reflection;
 using System.IO;
+using Android.Content.Res;
 using Newtonsoft.Json;
 
 namespace OTD
@@ -26,7 +31,7 @@ namespace OTD
         ListView _listView;
         Button _btnSave;
         private DataConfig dataConfig = new DataConfig();
-        public string FileConfig;
+        public string FileConfig = "otd_conf.json";
         private ArrayAdapter<WiFiDetail> _adapter;
         private WiFiDetail selected = new WiFiDetail();
         WifiManager wifiManager;
@@ -34,7 +39,6 @@ namespace OTD
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
-            FileConfig = "otd_conf.json";
 
             wifiManager = GetSystemService(WifiService).JavaCast<WifiManager>();
             string confit_txt = Intent.GetStringExtra("currentConfig");

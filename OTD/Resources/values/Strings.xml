@@ -8,5 +8,6 @@
   <string name="lblCodeDoor">Codigo de Acceso</string>
   <string name="lblUrlDoor">URL de acceso</string>
   <string name="lblWiFiList">Listado WiFi</string>
-  <string name="lblWiFiToUse">WiFi Seleccionada</string>  
+  <string name="lblWiFiToUse">WiFi Seleccionada</string>
+  <string name="lblMethod">Method</string>
 </resources>
