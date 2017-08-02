@@ -27,6 +27,7 @@ namespace OTD
         EditText _entryWiFiPass;
         EditText _entryCodeDoor;
         EditText _entryURLDoor;
+        EditText _entryMethod;
         TextView _lblWiFiToUseSelected;
         ListView _listView;
         Button _btnSave;
@@ -57,6 +58,7 @@ namespace OTD
             _entryWiFiPass = FindViewById<EditText>(Resource.Id.EntryPassWiFi);
             _entryCodeDoor = FindViewById<EditText>(Resource.Id.entryCodDoor);
             _entryURLDoor = FindViewById<EditText>(Resource.Id.entryUrlDoor);
+            _entryMethod = FindViewById<EditText>(Resource.Id.entryMethod);
             _lblWiFiToUseSelected = FindViewById<TextView>(Resource.Id.lblWiFiToUseSelected);
             _listView = FindViewById<ListView>(Resource.Id.WiFiListView2);
             _btnSave = FindViewById<Button>(Resource.Id.btnSave);
@@ -71,6 +73,7 @@ namespace OTD
                 _entryWiFiPass.Text = dataConfig.passW;
                 _entryCodeDoor.Text = dataConfig.code;
                 _entryURLDoor.Text = dataConfig.baseURI;
+                _entryMethod.Text = dataConfig.methodURI;
                 _lblWiFiToUseSelected.Text = dataConfig.SSID;
             }
             this.RefreshWifiList();
@@ -92,7 +95,12 @@ namespace OTD
         {
             bool result = false;
 
-            dataConfig.baseURI = "baseUri Cambiada";
+            dataConfig.baseURI = _entryURLDoor.Text;
+            dataConfig.passW = _entryWiFiPass.Text;
+            dataConfig.code = _entryCodeDoor.Text;
+            dataConfig.methodURI = _entryMethod.Text;
+            dataConfig.SSID = _lblWiFiToUseSelected.Text;
+
             string json = JsonConvert.SerializeObject(dataConfig);
             string path = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
             string filePath = Path.Combine(path, FileConfig);

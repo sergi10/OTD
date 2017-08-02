@@ -39,8 +39,7 @@ namespace OTD
 
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Main);
-            //FileConfig= "otd_conf.json";
-            //_listView = FindViewById<ListView>(Resource.Id.WiFiListView);
+
             _labelSsid = FindViewById<TextView>(Resource.Id.LaBelSSID);
             _IconButton = FindViewById<ImageButton>(Resource.Id.OpenDoorButton);
             _ConfigButton = FindViewById<Button>(Resource.Id.btnConfig);
@@ -51,20 +50,22 @@ namespace OTD
             _IconButton.Click += _IconButton_Click;
             _ConfigButton.Click += _ConfigButton_Click;
             _ExitButton.Click += _ExitButton_Click;
-            //_listView.ItemClick += ListViewOnItemClick;
-            //if (!this.ReadConfig())
-            //{
-            //    _labelSsid.Text = "ERROR EN FICHERO DE CONFIGURACION";
-            //    _IconButton.Enabled = false;
-            //    _ConfigButton.Enabled = false;
-            //    _ExitButton.Enabled = true;
-            //}
+            if (!this.ReadConfig())
+            {
+                _labelSsid.Text = "ERROR EN FICHERO DE CONFIGURACION \n CIERRE LA APLICACION.";
+                _IconButton.SetImageResource(Resource.Drawable.remotered);
+                _IconButton.Enabled = false;
+                _ConfigButton.Enabled = false;
+                _ExitButton.Enabled = true;
+            }
+            else
+            {
+                _labelSsid.Text = "PREPARADO";
+            }
         }
 
         private void _ExitButton_Click(object sender, EventArgs e)
         {
-            //var activity = (Activity)this.BaseContext;
-            //this.FinishAffinity();
             Android.OS.Process.KillProcess(Android.OS.Process.MyPid());
         }
 
@@ -78,46 +79,33 @@ namespace OTD
         private void _IconButton_Click(object sender, EventArgs e)
         {
             _IconButton.SetImageResource(Resource.Drawable.remotegray);
-            //RefreshWifiList( );
-            //_IconButton.Enabled = false;
-            //_IconButton.Enabled = Hodoor( );
-            //this.ReadConfig();
-            if (!this.ReadConfig())
+
+            if (AddNetwork())
             {
-                _labelSsid.Text = "ERROR EN FICHERO DE CONFIGURACION";
-                _IconButton.SetImageResource(Resource.Drawable.remotered);
-                _IconButton.Enabled = false;
-                _ConfigButton.Enabled = false;
-                _ExitButton.Enabled = true;
-            }
-            else
-            {
-                if (AddNetwork())
+                _IconButton.SetImageResource(Resource.Drawable.remotegray);
+                if (Connect2Network())
                 {
-                    if (Connect2Network())
+                    _IconButton.SetImageResource(Resource.Drawable.remoteorange);
+                    if (Hodoor())
                     {
-                        if (Hodoor())
-                        {
-                            _IconButton.SetImageResource(Resource.Drawable.remotegreen);
-                            _ConfigButton.Enabled = false;
-                            _ExitButton.Enabled = true;
-                        }
-                        else
-                        {
-                            _IconButton.SetImageResource(Resource.Drawable.remotegreen);
-                        }
+                        _IconButton.SetImageResource(Resource.Drawable.remotegreen);
+                        _ConfigButton.Enabled = false;
+                        _ExitButton.Enabled = true;
                     }
                     else
                     {
-                        _IconButton.SetImageResource(Resource.Drawable.remotegreen);
+                        _IconButton.SetImageResource(Resource.Drawable.remoteorange);
                     }
                 }
                 else
                 {
-                    _IconButton.SetImageResource(Resource.Drawable.remotegreen);
+                    _IconButton.SetImageResource(Resource.Drawable.remotered);
                 }
             }
-
+            else
+            {
+                _IconButton.SetImageResource(Resource.Drawable.remotegray);
+            }
         }
 
         private bool ReadConfig()
@@ -240,95 +228,23 @@ namespace OTD
         }
         #endregion
 
-        //private void ListViewOnItemClick(object sender, AdapterView.ItemClickEventArgs e)
-        //{
-        //    selected = _adapter.GetItem(e.Position);
-        //    _labelSsid.Text = selected.SSID;
-        //    //ThreadPool.QueueUserWorkItem(lol2 =>
-        //    //{
-        //    if (AddNetwork( ))
-        //    {
-        //        if (Connect2Network( ))
-        //        {
-        //            _labelSsid.Text += "  --> CONECTADO";
-        //            //RunOnUiThread(( ) => _IconButton.SetImageResource(Resource.Drawable.remotegreen));
-        //            _IconButton.SetImageResource(Resource.Drawable.remotegreen);
-        //            _ConfigButton.Visibility = Android.Views.ViewStates.Gone;
-        //            _ExitButton.Visibility = Android.Views.ViewStates.Visible;
-        //            Thread.Sleep(TimeSpan.FromSeconds(2));
-        //        }
-        //        else
-        //        {
-        //            _labelSsid.Text = " ERROR!!! \n SIN CONEXION";
-        //            _IconButton.SetImageResource(Resource.Drawable.remotered);
-        //            selected = null;
-        //            _IconButton.Enabled = true;
-        //        }
-        //    }
-        //}
-
-        //private void RefreshWifiList( )
-        //{
-
-        //    if (!wifiManager.IsWifiEnabled)
-        //        wifiManager.SetWifiEnabled(true);
-        //    wifiManager.StartScan( );
-
-        //    ThreadPool.QueueUserWorkItem(lol =>
-        //    {
-        //        Thread.Sleep(TimeSpan.FromSeconds(3));
-
-        //        var wifiList = wifiManager.ScanResults;
-
-        //        if (null == _adapter)
-        //        {
-        //            _adapter = new ArrayAdapter<WiFiDetail>(this, Android.Resource.Layout.SimpleListItemSingleChoice,
-        //                                               Android.Resource.Id.Text1);
-        //            RunOnUiThread(( ) => _listView.Adapter = _adapter);
-        //        }
-
-        //        if (_adapter.Count > 0)
-        //        {
-        //            RunOnUiThread(( ) => _adapter.Clear( ));
-        //        }
-
-
-        //        foreach (var wifi in wifiList)
-        //        {
-        //            var wifi1 = wifi;
-        //            RunOnUiThread(( ) => _adapter.Add(new WiFiDetail { SSID = wifi1.Ssid, Encryption = wifi1.Capabilities }));
-        //        }
-
-        //        RunOnUiThread(( ) => _adapter.NotifyDataSetChanged( ));
-        //    });
-        //}
-
-
         private bool Hodoor()
         {
             bool result = false;
-
-            string URI = "http://" + dataConfig.baseURI + dataConfig.methodURI;
-            string URI2 = "http://" + dataConfig.baseURI + dataConfig.methodURI + "?code=" + dataConfig.code + "&bac=ACCESO";
-            string myParameters = "?code=" + dataConfig.code + "&bac=ACCESO";
-
-            using (WebClient wc = new WebClient())
+            if (dataConfig != null)
             {
-                //wc.Headers[HttpRequestHeader.ContentType] = "application/x-www-form-urlencoded";
-                string HtmlResult = wc.UploadString(URI, myParameters);
-                Console.WriteLine(HtmlResult);
-                var response3 = wc.DownloadString(URI2);
-                Console.WriteLine(HtmlResult);
+                string URI = "http://" + dataConfig.baseURI + dataConfig.methodURI;
+                string myParameters = "code=" + dataConfig.code + "&bac=ACCESO";
 
-                var reqparm = new System.Collections.Specialized.NameValueCollection();
-                reqparm.Add("code", dataConfig.code);
-                reqparm.Add("param2", "ACCESO");
-                byte[] responsebytes = wc.UploadValues("http://localhost", "POST", reqparm);
-                Console.WriteLine(responsebytes.ToString());
-                //string responsebody = Encoding.UTF8.GetString(responsebytes);
+                using (WebClient wc = new WebClient())
+                {
+                    wc.Headers[HttpRequestHeader.ContentType] = "application/x-www-form-urlencoded";
+                    string HtmlResult = wc.UploadString(URI, "POST", myParameters);
+                    Console.WriteLine(HtmlResult);
+                    _labelSsid.Text = "Opening......";
+                    result = true;
+                }
             }
-
-
             return result;
         }
     }
