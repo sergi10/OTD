@@ -3,30 +3,29 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-  <TextView
-      android:textAppearance="?android:attr/textAppearanceLarge"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:id="@+id/LaBelSSID" />
-  <ImageButton
-      android:id="@+id/OpenDoorButton"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:src="@drawable/remotewhite"
-      android:layout_gravity="center"
-      android:layout_marginBottom="6dp"
-      android:scaleX="0.70"
-      android:scaleY="0.70"
-      android:backgroundTint="#00000000"/>
-  <Button
-      android:text="Configuracion"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:id="@+id/btnConfig" />
-  <Button
-      android:text="Salir"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:id="@+id/btnExit"
-      android:visibility="gone" />
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/LaBelSSID" />
+    <ImageButton
+        android:id="@+id/OpenDoorButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/remotewhite"
+        android:layout_gravity="center"
+        android:layout_marginBottom="6dp"
+        android:scaleX="0.70"
+        android:scaleY="0.70"
+        android:backgroundTint="#00000000" />
+    <Button
+        android:text="Configuracion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnConfig" />
+    <Button
+        android:text="Salir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnExit" />
 </LinearLayout>
