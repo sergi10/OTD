@@ -96,7 +96,8 @@ namespace OTD
 					_IconButton.SetImageResource(Resource.Drawable.remoteorange);
 					if (Hodoor())
 					{
-						_IconButton.SetImageResource(Resource.Drawable.remotegreen);
+                        _labelSsid.Text = "ABRIENDO!!!!";
+                        _IconButton.SetImageResource(Resource.Drawable.remotegreen);
 						_ConfigButton.Enabled = false;
 						_ExitButton.Enabled = true;
 					}
